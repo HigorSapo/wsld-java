@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/fiap2/src/fiap/scj/ws/soap/client/MinhaSaudeApp.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="fiap.scj.ws.soap.client.MinhaSaudeApp"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="fiap2"/>
+</launchConfiguration>

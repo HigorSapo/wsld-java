@@ -1,0 +1,30 @@
+package fiap.scj.ws.soap;
+
+import javax.jws.WebService;
+
+@WebService
+public class MinhaSaudeImp1 {
+	
+	public String calcularImc(float altura, float peso) {
+		int imc = (int) (peso / (altura * 2));
+		return imc;
+	}
+	
+	public String retornaSituacao(int imc) {
+		String situacao = "";
+		if (imc <= 17) {
+			situacao = "Muito abaixo do peso";
+		}
+		if (imc > 18) {
+			situacao = "Peso normal";
+		}
+		if (imc > 30) {
+			situacao = "Obesidade";
+		}
+		if (imc > 40) {
+			situacao = "Obesidade morbida";
+		}
+		return situacao;
+	}
+
+}

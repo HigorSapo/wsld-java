@@ -1,0 +1,13 @@
+package fiap.scj.ws.soap;
+
+import javax.jws.WebService;
+
+@WebService
+public class MinhaSaudeImp1 {
+	
+	public int calcularImc(float altura, float peso) {
+		int imc = peso / (altura * 2);
+		return imc;
+	}
+
+}

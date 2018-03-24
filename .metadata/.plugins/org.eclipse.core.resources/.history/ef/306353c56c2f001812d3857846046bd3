@@ -1,0 +1,10 @@
+package fiap.scj.ws.soap.client;
+
+public class MinhaSaudeApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

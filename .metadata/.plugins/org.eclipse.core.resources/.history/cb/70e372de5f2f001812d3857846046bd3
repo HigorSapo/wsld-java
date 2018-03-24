@@ -1,0 +1,9 @@
+package fiap.scj.ws.soap;
+
+public class MinhaSaudeImp1 {
+	
+	public int calcularImc(float altura, float peso) {
+		return 99;
+	}
+
+}
